@@ -4,19 +4,19 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node api.js && next build",
+    "build": "next build",
     "check": "next lint && tsc --noEmit",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "dev": "node api.js && next dev",
+    "dev": "next dev",
     "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,mdx}\" --cache",
     "format:write": "prettier --write \"**/*.{ts,tsx,js,jsx,mdx}\" --cache",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "preview": "next build && next start",
-    "start": "node api.js && next start",
+    "start": "next start",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
